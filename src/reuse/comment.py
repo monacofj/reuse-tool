@@ -737,7 +737,7 @@ EXTENSION_COMMENT_STYLE_MAP = {
     ".rs": CCommentStyle,
     ".rss": HtmlCommentStyle,
     ".rst": ReStructedTextCommentStyle,
-    ".s": PythonCommentStyle,
+    ".s": PythonCommentStyle, # Assume GNU Assembler for x86
     ".sass": CssCommentStyle,
     ".sbt": CCommentStyle,
     ".sc": CCommentStyle,  # SuperCollider source file
@@ -796,7 +796,7 @@ EXTENSION_COMMENT_STYLE_MAP = {
     ".yml": PythonCommentStyle,
     ".zig": CSingleCommentStyle,
     ".zsh": PythonCommentStyle,
-    ".asm": LispCommentStyle,
+    ".asm": LispCommentStyle,     # ASM assembler
 }
 
 EXTENSION_COMMENT_STYLE_MAP_LOWERCASE = {
